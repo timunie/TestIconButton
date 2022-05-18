@@ -2,6 +2,8 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.ReactiveUI;
 using System;
+using Projektanker.Icons.Avalonia;
+using Projektanker.Icons.Avalonia.FontAwesome;
 
 namespace TestCustomControl
 {
@@ -19,6 +21,7 @@ namespace TestCustomControl
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
                 .LogToTrace()
+                .WithIcons(container => container.Register<FontAwesomeIconProvider>())
                 .UseReactiveUI();
     }
 }

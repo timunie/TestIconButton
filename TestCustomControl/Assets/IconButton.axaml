@@ -14,7 +14,7 @@
       <Setter.Value>
         <ControlTemplate>
           <StackPanel Orientation="Horizontal">
-            <i:Icon Value="{TemplateBinding Icon}" />
+            <i:Icon Value="{TemplateBinding Icon}" VerticalAlignment="Top" />
             <TextBlock Text="{TemplateBinding Content}" />
           </StackPanel>
         </ControlTemplate>

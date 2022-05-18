@@ -16,6 +16,7 @@
     <StyleInclude Source="/Assets/IconButton.axaml"/>
   </Window.Styles>
     
-
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <cc:IconButton Icon="fas fa-info-circle" Content="456"></cc:IconButton>
+    
+    <!-- <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/> -->
   </Window>
